@@ -14,6 +14,8 @@
         android:background="#efefef"
         android:textSize="48sp"
         android:maxLength="12"
+        android:padding="10dp"
+        android:gravity="right|center_vertical|bottom"
         />
     <!-- Row 1 -->
     <LinearLayout
@@ -196,7 +198,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="="
-            android:onClick="onDigit"
+            android:onClick="onEqual"
             />
     </LinearLayout>
 
